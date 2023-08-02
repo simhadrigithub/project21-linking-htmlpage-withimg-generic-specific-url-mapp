@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{%  static 'css/c1.css' %}">
+</head>
+<body>
+    <center>
+        <marquee><h2>apple fruit</h2></marquee>
+    <h1>display all details about apple fruit</h1>
+    {% for f in fruit %}
+    <h1>{{f}}</h1>
+    {% endfor %}
+    <img src="{% static 'images/apples.jfif' %}" alt="">
+    <marquee><h4><a href="{%  url 'grapes' %}">click here to navigate from apples to grapes</h4></a></marquee>
+    <marquee><h1><a href="{% url 'app3:orange' %}">click here to navigate from apple fruite to orange fruite</a></h1></marquee>
+</center>
+
+</body>
+</html>

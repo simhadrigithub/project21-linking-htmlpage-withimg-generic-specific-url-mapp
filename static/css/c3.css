@@ -1,0 +1,22 @@
+h1{
+    color: orange;
+    background-color: yellowgreen;
+    border-radius: 200px;
+    font-style: italic;
+    width: 400px;
+}
+
+h2{
+    color: rgb(247, 16, 16);
+    background-color: rgb(15, 63, 238);
+    border-radius: 200px;
+    font-style: italic;
+    width: 250px;
+}
+h3{
+    color: black;
+    background-color: bisque;
+    border-radius: 300px;
+    width: 150px;
+    border-bottom: 10px;
+}

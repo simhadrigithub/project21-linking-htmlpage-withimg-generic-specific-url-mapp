@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/c2.css' %}">
+    
+</head>
+<body>
+    <center>
+        <marquee><h3>grape fruit</h3></marquee>
+        <h1>first display grape fruit</h1>
+        <h1>benefits of grape fruit</h1>
+        {% for g in benefits %}
+        <h2>{{g}}</h2>
+        {% endfor %}
+        <img src="{% static 'images/grapes.jfif' %}" alt="">
+        <a href="{% url 'apples' %}"><h3>click here to navigate from grapes to apples</h3></a>
+    </center>
+</body>
+</html>

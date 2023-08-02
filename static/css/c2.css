@@ -1,0 +1,24 @@
+h1{
+    color: yellow;
+    background-color: blueviolet;
+    width: 500px;
+    border-radius: 200px;
+
+}
+h2{
+    color: rgb(218, 194, 13);
+    background-color: rgb(153, 241, 12);
+    width: 300px;
+    border-radius: 200px;
+    
+}
+img{
+    background-color: blue;
+}
+h3{
+    color: rgb(102, 8, 243);
+    background-color: yellowgreen;
+    border-radius: 100px;
+    width: 100px;
+
+}

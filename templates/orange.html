@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/c3.css' %}">
+</head>
+<body>
+    <center>
+        <marquee><h2>orange fruite</h2></marquee>
+        <h1>benefits of orange fruite </h1>
+        <h2>
+            {% for o in benefits %}
+            <h1>{{o}}</h1>
+            {% endfor %}
+        </h2>
+        <img src="{% static 'images/orange.jfif' %}" alt="">
+        <h2><a href="{% url 'apples' %}">click here to navigate from orange fruite to apple fruit </a></h2>
+        <marquee><h4><a href="{%  url 'grapes' %}">click here to navigate from orange to grapes</h4></a></marquee>
+
+    </center>
+</body>
+</html>
